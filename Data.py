@@ -6,18 +6,16 @@ class Data:
     START = """
 مرحبا عزيزي {}
 
-هاذا البوت يعمل على استخراج جلسة
-حسابات تليجرام 
-
-Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot , Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain , Agar Tidak Delay
- 
-**Terimakasih**
+**- يعمل البوت بسهولة وبكل بساطة **
+**- بوت خاص باستخراح جلسات تليثون وبروجرام **
+  
+**اضغط على بدء الاستخراج للإستخراج**
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("• Mulai Generating Session •", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Kembali 🏠", callback_data="home")]
+        [InlineKeyboardButton("• بدء الاستخراج •", callback_data="generate")],
+        [InlineKeyboardButton(text="🏠 القائمة 🏠", callback_data="home")]
     ]
 
     generate_button = [
