@@ -25,37 +25,35 @@ class Data:
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("• بدء الاستخراج •", callback_data="generate")],
-        [InlineKeyboardButton("🇾🇪 المطور 🇾🇪", url="https://t.me/tzypis")],
+        [InlineKeyboardButton("🇾🇪 المطور 🇾🇪", url="https://t.me/A_S_A_S_K")],
         [
             InlineKeyboardButton("الاوامر ❔", callback_data="help"),
-            InlineKeyboardButton("🤖 About 🤖", callback_data="about")
+            InlineKeyboardButton("🤖 معلومات 🤖", callback_data="about")
         ],
         [InlineKeyboardButton("• قناة السورس •", url="https://t.me/Mlze1bot")],
     ]
 
     # Help Message
     HELP = """
-👇🏻 **Perintah yang tersedia** 👇🏻
+👇🏻 **اوامر البوت** 👇🏻
 
-/about - Tentang Bot ini
-/help - Pesan ini
-/start - Mulai Bot
-/generate - Mulai Generating Session
-/cancel - Membatalkan proses
-/restart - Membatalkan proses
+/about - لعرض معلومات البوت
+/help - قائمة المساعدة
+/start - أمر البدء
+/generate - لبدء استخراج جلسات البوت
 """
 
     # About Message
     ABOUT = """
-**Tentang Bot ini** 
+**معلومات قد تهمگ** 
 
-Sebuah telegram bot untuk mengambil pyrogram dan telethon String Session
+**هاذا البوت عبارة بوت استخراج جلسات تليثون وجلسات بروجرام **
 
-Grup Support : [Userbot Telegram](https://t.me/UserbotTelegramSupport)
+-قناة السورس : [قناة البوت](https://t.me/Mlze1bot)
 
-Kerangka : [Pyrogram](docs.pyrogram.org)
+موقع بروجرام : [Pyrogram](docs.pyrogram.org)
 
-Bahasa : [Python](www.python.org)
+موقع تليثون : [Python](www.python.org)
 
-Developer : @tzypis
+المطور : @A_S_A_S_K
     """
