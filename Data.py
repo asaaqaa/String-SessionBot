@@ -4,13 +4,10 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Halo {}
+مرحبا عزيزي {}
 
-Selamat datang {}
-
-Jika kamu tidak percaya bot ini, 
-1) gausah baca pesan ini
-2) blokir bot atau hapus chat
+هاذا البوت يعمل على استخراج جلسة
+حسابات تليجرام 
 
 Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot , Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain , Agar Tidak Delay
  
