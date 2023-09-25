@@ -19,18 +19,18 @@ class Data:
     ]
 
     generate_button = [
-        [InlineKeyboardButton("• Mulai Generating Session •", callback_data="generate")]
+        [InlineKeyboardButton("• بدء الإستخراج •", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("• Mulai Generating Session •", callback_data="generate")],
-        [InlineKeyboardButton("🐱 Developer 🐱", url="https://t.me/tzypis")],
+        [InlineKeyboardButton("• بدء الاستخراج •", callback_data="generate")],
+        [InlineKeyboardButton("🇾🇪 المطور 🇾🇪", url="https://t.me/tzypis")],
         [
-            InlineKeyboardButton("Menu Bantuan ❔", callback_data="help"),
+            InlineKeyboardButton("الاوامر ❔", callback_data="help"),
             InlineKeyboardButton("🤖 About 🤖", callback_data="about")
         ],
-        [InlineKeyboardButton("• Info Project •", url="https://t.me/ApisProject")],
+        [InlineKeyboardButton("• قناة السورس •", url="https://t.me/Mlze1bot")],
     ]
 
     # Help Message
