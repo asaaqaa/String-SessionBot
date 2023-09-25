@@ -30,10 +30,10 @@ ERROR_MESSAGE = "Oops! Pengecualian terjadi ! \n\n**Error** : {} " \
 @Client.on_message(filters.private & ~filters.forwarded & filters.command('generate'))
 async def main(_, msg):
     await msg.reply(
-        "Silahkan Tekan String Mana Yang Ingin Anda Ambil",
+        "**-أختر تلثيون لاستخراج جلسة يوزر بوت او أختار بروجرام لاستخراج جلسة مساعد ميوزك",
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("Pyrogram", callback_data="pyrogram"),
-            InlineKeyboardButton("Telethon", callback_data="telethon")
+            InlineKeyboardButton("بروجــرام", callback_data="pyrogram"),
+            InlineKeyboardButton("تيلــثيون", callback_data="telethon")
         ]])
     )
 
