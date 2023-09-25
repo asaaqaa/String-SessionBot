@@ -6,7 +6,7 @@
 
 ### Deploy ke Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/apisuserbot/String-SessionBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/asaaqaa/String-SessionBot)
 
 ## Credit Repository
 
